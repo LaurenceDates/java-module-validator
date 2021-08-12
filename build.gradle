@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'studio.dates.java-module'
+version '1.0.0'
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javadoc {
+    options.encoding 'UTF-8'
+    options.addBooleanOption('html5', true)
+}

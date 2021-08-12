@@ -1,0 +1,12 @@
+studio.dates.javamodule.validator.booleanvalidator
+studio.dates.javamodule.validator.classbooleanvalidator
+studio.dates.javamodule.validator.classvalidator
+studio.dates.javamodule.validator.core
+studio.dates.javamodule.validator.core.regex
+studio.dates.javamodule.validator.enums
+studio.dates.javamodule.validator.exception
+studio.dates.javamodule.validator.exception.lengthvalidation
+studio.dates.javamodule.validator.exception.nullvalidation
+studio.dates.javamodule.validator.exception.numericrange
+studio.dates.javamodule.validator.exception.regexvalidation
+studio.dates.javamodule.validator.validator
